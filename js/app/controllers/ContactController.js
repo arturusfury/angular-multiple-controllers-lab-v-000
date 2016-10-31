@@ -8,14 +8,6 @@ function ContactController() {
   this.changeName = function() {
     vm.name = "Bill Gates";
   }
-
-  this.changeEmail = function() {
-    vm.email = 'bill@microsoft.com';
-  }
-
-  this.changePhone = function() {
-    vm.phone = '80055551234';
-  }
 }
 
 angular

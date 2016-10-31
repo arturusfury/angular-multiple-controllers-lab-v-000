@@ -13,6 +13,9 @@
             Hello, {{ contact.name }}!<br />
             <div ng-controller="StaffController as staff">
               Hello, {{ staff.name }}!<br />
+
+              <input type="text" name="name" value="">
+              <button ng-click="contact.changeName()" />Change</button>
             </div>
         </div>
     </div>
